@@ -1,0 +1,288 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+    margin: 0;
+    padding: 0;
+}
+/* START STYLE FOR HEADER */
+.header{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background: #FF6A00;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+.menu-item{
+    list-style: none;
+}
+.menu-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* END STYLE FOR HEADER */
+/* START STYLE FOR BANNER */
+.banner-section{
+    background: url(./img/banner4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    margin: 0;
+}
+.banner-title, .banner-description{
+    text-align: center;
+    color: #f86d2d;
+}
+.banner-title{
+    font-size: 48px;
+}
+/* END STYLE FOR BANNER */
+/* START STYLE FOR CARDS */
+.cards-section{
+    padding: 50px 0;
+    text-align: center;
+}
+.cards-title{
+    text-align: center;
+    color:#FF6A00
+}
+.card{
+    width: 25%;
+    /* box-shadow: сдвиг по Х, сдвиг по У, размытие, растяжение, цвет */
+    box-shadow: 0px 2px 7px 0px #f86d2d; 
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+    /* Изменения от Алены */
+    /* display: flex; */
+}
+.card-title, .card-text{
+    margin-bottom: 10px;  
+}
+.card-button{
+    background: #FF6A00;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+/* Изменения от Алены */
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+/* Конец */
+
+.card-link{
+    color: white;
+    text-decoration: none;
+    align-content: stretch;
+    
+}
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+/* END STYLE FOR CARDS */
+/* START STYLE FOR FOOTER */
+.footer{
+    background: url(./img/foot.png);
+    background-size: cover;
+    padding: 100px 0;
+}
+.footer-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin-right: 50px;
+	padding: 10px;
+}
+.icons{
+    justify-content: flex-end;
+}
+.copyright{
+    color: #f6f2f1;
+	padding: 10px;
+	
+}
+/* END STYLE FOR FOOTER */
+
+/* Изменения от Алены */
+.img-1{
+    background: url("./records_min/1.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-1:hover{
+    background: url("./records_min/2.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-2{
+    background: url("./records_min/3.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-2:hover{
+    background: url("./records_min/4.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-3{
+    background: url("./records_min/5.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-3:hover{
+    background: url("./records_min/6.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-4{
+    background: url("./records_min/7.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-4:hover{
+    background: url("./records_min/8.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-5{
+    background: url("./records_min/9.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-5:hover{
+    background: url("./records_min/10.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-6{
+    background: url("./records_min/11.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-6:hover{
+    background: url("./records_min/12.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-7{
+    background: url("./records_min/13.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-7:hover{
+    background: url("./records_min/14.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-8{
+    background: url("./records_min/15.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-8:hover{
+    background: url("./records_min/16.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-9{
+    background: url("./records_min/17.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-9:hover{
+    background: url("./records_min/18.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-10{
+    background: url("./records_min/19.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-10:hover{
+    background: url("./records_min/20.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-11{
+    background: url("./records_min/21.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-11:hover{
+    background: url("./records_min/22.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-12{
+    background: url("./records_min/23.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-12:hover{
+    background: url("./records_min/24.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .header{
+        width: auto;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-row{
+        display: flex;
+        justify-content: center;
+    }
+    .cards-row{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card, .img{
+        width: auto;
+    }
+    .search,.footer-search-input,.footer-search-button,.social-networks{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .footer-row,.footer-search{
+        flex-wrap: wrap;
+    }
+    .footer-information, .icon{
+        flex-wrap: wrap;
+		bottom: auto;
+    }
+}
