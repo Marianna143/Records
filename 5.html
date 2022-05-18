@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidney Bechet</title>
+    <title>Various</title>
     <SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
     <SCRIPT type="text/javascript" src="/js/popup_img.js"></SCRIPT>
 </head>
 <style>
-    body {
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.text{
+	margin-bottom: 10px; 
+    text-align: center;
+	padding: 60px;
+}
+.price{
+	padding: 20px;
+	text-decoration: underline;
+}
+.banner{
+    width: 100%;
+    padding: 20px;
+    background: #FF6A00;
+}
+.img{
+	background: url(./img/9.png);
+	width: 100px;
+	height: 100px;
+}
+
+body {
 	margin:0;
 }
 
@@ -17,11 +43,12 @@
 	margin:30px; 
 	float:left;
 	cursor:pointer;
-	max-height:400px;
+	max-height:350px;
+	justify-content: space-around;
 }
 
 .popup {
-	position: absolute;
+	position: fixed;
 	height:100%;
 	width:100%;
 	top:0;
@@ -46,11 +73,76 @@
 	max-height:94%;
 	max-width:94%;
 	margin:1% 0 0 0;
+	pointer-events: none;
+	display: flex;
 }
+
+.footer{
+    background: url(./img/3.png);
+	background-size: cover;
+    padding: 30px 0;
+	position: relative;
+	margin-top: 360px;
+}
+.footer-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin-right: 50px;
+	padding: 10px;
+}
+.copyright{
+    color: #f6f2f1;
+	padding: 10px;
+	
+}
+
+@media screen and (max-width: 850px) {
+    .banner{
+        width: auto;
+    }
+	
+	.popup, .image{
+		width: auto;
+		bottom: 0px;
+	}
+    .footer-information, .icon{
+        flex-wrap: wrap;
+		bottom: auto;
+    }
+}
+
 </style>
 <body bgcolor="#fff2e4">
-   <img src="./records/IMG_1383.jpg" class="image">
-   <img src="./records/IMG_1384.jpg" class="image">
+	<div class="banner">
+		<div class="img"></div>
+	</div>
+   <img src="./records/IMG_1385.jpg" class="image">
+   <img src="./records/IMG_1386.jpg" class="image">
+   <div class="text"><h2>Various-Super Gold Hits-1976</h2>
+	<h3 class="price">цена: от 1100 руб<h3>
+		<h4>Чтобы приобрести пластинку пишите на WhatsApp или Telegram: +7(903)177-98-82</h4>
+</div>
+
+
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer-information">
+			<div class="copyright">This site was made by Marianna</div>
+			<div class="icons">
+				<a href="https://t.me/ffffzbd"><img src="./img/1 (1).png" alt="" class="icon"></a>
+				<a href="https://wa.me/79031779882"><img src="./img/2 (1).png" alt="" class="icon"></a>
+				<a href="https://instagram.com/__m.a.r.i.a.n.n.a_"><img src="./img/5 (2) (1).png" alt="" class="icon"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+   
 </body>
 <script>
    $(document).ready(function() { // Ждём загрузки страницы
@@ -71,5 +163,7 @@
 		});
 	});
 });
+
+
 </script>
 </html>
