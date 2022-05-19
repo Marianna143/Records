@@ -4,9 +4,7 @@
      align-items: center;
      flex-grow: 1;
  }
- .header-menu{
-     flex-grow: 3;
- }
+
  .cards-row{
      display: flex;
      flex-direction: row;
