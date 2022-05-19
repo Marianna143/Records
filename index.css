@@ -57,7 +57,7 @@
 }
 .cards-title{
     text-align: center;
-    color:#FF6A00
+    color:#FF6A00;
 }
 .card{
     width: 25%;
@@ -261,8 +261,104 @@ img{
     height: 200px;
 }
 
+.img-13{
+    background: url("./records_min/25.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-13:hover{
+    background: url("./records_min/26.jpg");
+    width: 200px;
+    height: 200px;
+}
 
+.img-14{
+    background: url("./records_min/27.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-14:hover{
+    background: url("./records_min/28.jpg");
+    width: 200px;
+    height: 200px;
+}
 
+.img-15{
+    background: url("./records_min/29.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-15:hover{
+    background: url("./records_min/30.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-16{
+    background: url("./records_min/31.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-16:hover{
+    background: url("./records_min/32.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-17{
+    background: url("./records_min/33.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-17:hover{
+    background: url("./records_min/34.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-18{
+    background: url("./records_min/35.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-18:hover{
+    background: url("./records_min/36.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-19{
+    background: url("./records_min/37.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-19:hover{
+    background: url("./records_min/38.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-20{
+    background: url("./records_min/39.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-20:hover{
+    background: url("./records_min/40.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.img-21{
+    background: url("./records_min/41.jpg");
+    width: 200px;
+    height: 200px;
+}
+.img-21:hover{
+    background: url("./records_min/42.jpg");
+    width: 200px;
+    height: 200px;
+}
 
 
 @media screen and (max-width: 850px) {
