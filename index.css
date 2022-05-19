@@ -15,7 +15,7 @@
 	width: 100px;
 	height: 100px;
     display: flex;
-    margin: 10px;
+    margin-left: 20%;
 }
 .container{
     max-width: 1140px;
@@ -268,9 +268,7 @@ img{
     .header{
         width: auto;
     }
-    .imeg{
-        display: flex;
-    }
+    
     .header-menu{
         display: none;
     }

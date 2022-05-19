@@ -29,6 +29,9 @@
     .footer-search-input{
         margin-right: 0px;
     }
+    .cards-row{
+        flex-direction: column;
+    }
     .footer{
         padding: 20px;
     }
