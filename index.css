@@ -25,12 +25,14 @@
 .menu-item{
     list-style: none;
     margin-left: 10%;
+    list-style-type: disc;
 }
 .menu-link{
     color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    
 }
 /* END STYLE FOR HEADER */
 /* START STYLE FOR BANNER */
