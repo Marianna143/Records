@@ -21,6 +21,7 @@
     max-width: 1140px;
     padding: 0 15px;
     margin: 0 auto; 
+    flex-direction: column;
 }
 .menu-item{
     list-style: none;
@@ -29,9 +30,9 @@
 }
 .menu-link{
     color: rgb(0, 0, 0);
-    text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    bottom: 0;
     
 }
 /* END STYLE FOR HEADER */
@@ -49,8 +50,13 @@
 }
 .banner-title{
     font-size: 48px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
 }
-
+.banner-description{
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #000000;
+}
 /* END STYLE FOR BANNER */
 /* START STYLE FOR CARDS */
 .cards-section{
@@ -367,10 +373,13 @@ img{
     .header{
         width: auto;
     }
-    
-    .header-menu{
-        display: none;
+    .container{
+        flex-direction: column;
     }
+    
+    /* .header-menu{
+       
+    } */
     .header-row{
         display: flex;
         justify-content: center;
