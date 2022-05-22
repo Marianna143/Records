@@ -1,5 +1,12 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif, cursive; */
+    /* font-family: 'Macondo', cursive; 
+    font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Akshar', sans-serif; */
+    /* font-family: 'Artemis Deco', arial; */
+    /* font-family: 'Akshar', sans-serif; */
+    /* font-family: 'Akshar', sans-serif;  */
+    font-family: 'Zen Loop', cursive;
     margin: 0;
     padding: 0;
 }
@@ -33,7 +40,6 @@
     text-transform: uppercase;
     font-weight: bold;
     bottom: 0;
-    
 }
 /* END STYLE FOR HEADER */
 /* START STYLE FOR BANNER */
@@ -50,8 +56,11 @@
 }
 .banner-title{
     font-size: 48px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000000; 
+    /* font-family: 'Akshar', sans-serif; */
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Macondo', cursive;
 }
 .banner-description{
     -webkit-text-stroke-width: 0.3px;
@@ -66,6 +75,7 @@
 .cards-title{
     text-align: center;
     color:#FF6A00;
+    
 }
 .card{
     width: 25%;
@@ -78,8 +88,12 @@
     /* display: flex; */
 }
 .card-title, .card-text{
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+    /* font-family: 'Akshar', sans-serif;  */
 }
+/* .card-text{
+    
+} */
 .card-button{
     background: #FF6A00;
     padding: 10px 70px;
