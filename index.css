@@ -176,7 +176,7 @@
     color: rgb(0, 0, 0);
     padding: 20px;
     background: #FF6A00;
-    font-family: 'Macondo', cursive;
+    /* font-family: 'Macondo', cursive; */
 }
 .imeg{
 	background: url(./img/9.png);
@@ -201,7 +201,7 @@
     text-transform: uppercase;
     font-weight: bold;
     bottom: 0;
-    font-family: 'Macondo', cursive;
+    /* font-family: 'Macondo', cursive; */
 }
 .menu-link {
     /* reset */
