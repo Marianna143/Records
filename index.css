@@ -87,9 +87,9 @@
   background-color: #050608;
 }
 .disk .separator {
-  background-color: #050608;
+  background-color: #1d1c1c;
   position: absolute;
-  width: 100%;
+  width: 50%;
   height: 58px;
   top: 36%;
 }
@@ -176,7 +176,7 @@
     color: rgb(0, 0, 0);
     padding: 20px;
     background: #FF6A00;
-    font-family: 'Zen Loop', cursive;
+    font-family: 'Macondo', cursive;
 }
 .imeg{
 	background: url(./img/9.png);
@@ -201,7 +201,7 @@
     text-transform: uppercase;
     font-weight: bold;
     bottom: 0;
-    font-family: 'Zen Loop', cursive;
+    font-family: 'Macondo', cursive;
 }
 .menu-link {
     /* reset */
@@ -226,7 +226,7 @@
     font-size: 20px;
   }
 .logo-title{
-    font-family: 'Zen Loop', cursive;
+    font-family: 'Macondo', cursive;
 }
 /* END STYLE FOR HEADER */
 /* START STYLE FOR BANNER */
