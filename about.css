@@ -41,6 +41,92 @@
     background-size: 200% 200%;
     animation: animateGlow 10s ease infinite;
   }
+
+
+/* Карточки начало */
+  .parent {
+    --scroll-gap: 2em;
+    height: 50%;
+    width: 60%;
+    margin: 70px;
+    margin-left: 20%;
+    overflow: auto;
+    padding: var(--scroll-gap);
+    scroll-snap-type: y mandatory;
+  }
+  .TEXT{
+    margin: 5px;
+    font-family: 'Lora', serif;
+  }
+  .child {
+    /* scroll-snap-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: calc(30vh - 1 * var(--scroll-gap));
+    border-radius: 0.4em;
+    padding: 1.25em;
+    box-shadow: 0 0.9px 1.5px rgba(0, 0, 0, 0.03), 0 3.1px 5.5px rgba(0, 0, 0, 0.08), 0 14px 25px rgba(0, 0, 0, 0.12);
+  }
+  .child:not(:last-child) {
+    margin-bottom: var(--scroll-gap);
+  }
+  .child:nth-child(1) {
+    background-color: #d74247;
+  }
+  .child:nth-child(1) h1 {
+    color: #ebfffa;
+  }
+  .child:nth-child(2) {
+    background-color: #9ed8db;
+  }
+  .child:nth-child(2) h1 {
+    color: #0c0f0a;
+  }
+  .child:nth-child(3) {
+    background-color: #33648a;
+  }
+  .child:nth-child(3) h1 {
+    color: #ebfffa;
+  }
+  .child:nth-child(4) {
+    background-color: #1d3354;
+  }
+  .child:nth-child(4) h1 {
+    color: #ebfffa;
+  }
+/* Карточки конец */
+
+
+
+/* START STYLE FOR FOOTER */
+.footer{
+  background: rgb(25, 29, 29);
+  background-size: cover;
+  padding: 100px 0;
+}
+.footer-information{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  margin-right: 50px;
+padding: 10px;
+}
+.icons{
+  justify-content: flex-end;
+}
+.copyright{
+  color: #f6f2f1;
+padding: 10px;
+
+}
+/* END STYLE FOR FOOTER */
+
+
+
   @keyframes animateGlow {
     0% {
       background-position: 0% 50%;
@@ -70,3 +156,4 @@
         font-size: 18px;
       }
   }
+  
