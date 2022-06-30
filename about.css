@@ -37,7 +37,7 @@
     -moz-filter: blur(5vw);
     -ms-filter: blur(5vw);
     filter: blur(5vw);
-    background: linear-gradient(300deg, #3cffce, #9039f4, #FF1493, #00FFFF, #FFFF00 );
+    background: linear-gradient(300deg,  #00FFFF,#FF1493, #FFFF00 );
     background-size: 200% 200%;
     animation: animateGlow 10s ease infinite;
   }
@@ -54,14 +54,26 @@
     padding: var(--scroll-gap);
     scroll-snap-type: y mandatory;
   }
-  .TEXT{
-    font-family: 'Akshar', sans-serif;
-    margin: 3px;
+  .TEXT1{
+  font-size: 24px;
+  margin: 2px;
+  }
+  .TEXT2{
+  font-size: 21px;
+  margin: 2px;
+  }
+  .TEXT3{
+  font-size: 22px;
+  margin: 2px;
+  }
+  .TEXT4{
+  font-size: 27px;
+  margin: 2px;
   }
   .child {
     scroll-snap-align: center;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     height: calc(30vh - 1 * var(--scroll-gap));
     border-radius: 0.4em;
     padding: 1.25em;
@@ -71,28 +83,28 @@
     margin-bottom: var(--scroll-gap);
   }
   .child:nth-child(1) {
-    background-color: #ffff4f;
+    background-color: #ff7d20;
   }
   .child:nth-child(1) h5 {
     color: #000000;
   }
   .child:nth-child(2) {
-    background-color: #53fcfc;
+    background-color: #fd9b55;
   }
   .child:nth-child(2) h5 {
     color: #0c0f0a;
   }
   .child:nth-child(3) {
-    background-color: #ee48a1;
+    background-color: #ffae74;
   }
   .child:nth-child(3) h5 {
-    color: #ffffff;
+    color: #000000;
   }
   .child:nth-child(4) {
-    background-color: #9a42ff;
+    background-color: #fcc7a1;
   }
   .child:nth-child(4) h5 {
-    color: #ebfffa;
+    color: #000000;
   }
 /* Карточки конец */
 
@@ -139,31 +151,52 @@ padding: 10px;
   }
   @keyframes textColor {
     0% {
-      color: #7e0fff;
+      color: #00FFFF;
     }
-    50% {
-      color: #0fffc1;
+    30% {
+      color: #FF1493;
+    }
+    60% {
+      color: #FFFF00;
     }
     100% {
-      color: #7e0fff;
+      color: #00FFFF;
     }
   }
 
 
-  @media screen and (max-width: 760px){
+  @media screen and (max-width: 849px){
       p{
+        font-size: 10px;
+      }
+      .TEXT1{
         font-size: 12px;
       }
-      .TEXT{
+      .TEXT2{
+        font-size: 9px;
+      }
+      .TEXT3{
         font-size: 10px;
+      }
+      .TEXT4{
+        font-size: 13px;
       }
   }
   
-  @media screen and (max-width: 850px){
+  @media screen and (min-width:850px){
     p{
-      font-size: 14px;
+      font-size: 17px;
     }
-    .TEXT{
-      font-size: 15px;
-    }
+    .TEXT1{
+        font-size: 18px;
+      }
+      .TEXT2{
+        font-size: 18px;
+      }
+      .TEXT3{
+        font-size: 18px;
+      }
+      .TEXT4{
+        font-size: 20px;
+      }
   }
