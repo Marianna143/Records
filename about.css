@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Lora', serif;
+    font-family: 'Akshar', sans-serif;
   }
   
   html,
@@ -9,13 +9,13 @@
     height: 100%;
   }
   p {
-    /* position: relative; */
+    position: relative;
     width: 90%;
     height: 170px;
     line-height: 130px;
     text-align: center;
     font-size: 25px;
-    color: #52504e;
+    color: #ffffff;
     background-color: #000000;
     animation: textColor 10s ease infinite;
     margin-top: 2%;
@@ -31,15 +31,15 @@
     z-index: -1;
     height: 100%;
     width: 100%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     transform: scale(0.75);
     -webkit-filter: blur(5vw);
     -moz-filter: blur(5vw);
     -ms-filter: blur(5vw);
     filter: blur(5vw);
     background: linear-gradient(300deg, #3cffce, #9039f4, #FF1493, #00FFFF, #FFFF00 );
-    /* background-size: 200% 200%;
-    animation: animateGlow 10s ease infinite; */
+    background-size: 200% 200%;
+    animation: animateGlow 10s ease infinite;
   }
 
 
@@ -55,8 +55,8 @@
     scroll-snap-type: y mandatory;
   }
   .TEXT{
-    font-family: 'Lora', serif;
-    
+    font-family: 'Akshar', sans-serif;
+    margin: 3px;
   }
   .child {
     scroll-snap-align: center;
@@ -100,7 +100,7 @@
 
 /* START STYLE FOR FOOTER */
 .footer{
-  background: rgb(25, 29, 29);
+  background: url(./img/foot.png);
   background-size: cover;
   padding: 100px 0;
 }
@@ -150,11 +150,11 @@ padding: 10px;
   }
 
 
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 760px){
       p{
         font-size: 12px;
       }
-      TEXT{
+      .TEXT{
         font-size: 10px;
       }
   }
@@ -163,7 +163,7 @@ padding: 10px;
     p{
       font-size: 14px;
     }
-    TEXT{
-      font-size: 10px;
+    .TEXT{
+      font-size: 15px;
     }
   }
