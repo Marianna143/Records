@@ -54,9 +54,9 @@
     padding: var(--scroll-gap);
     scroll-snap-type: y mandatory;
   }
-  .H{
+  /* .H{
     font-size: 7%;
-  }
+  } */
   .TEXT1{
   font-size: 24px;
   margin: 2px;
