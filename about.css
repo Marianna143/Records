@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Lora', serif;
   }
   
   html,
@@ -37,7 +38,7 @@
     -moz-filter: blur(5vw);
     -ms-filter: blur(5vw);
     filter: blur(5vw);
-    background: linear-gradient(270deg, #0fffc1, #7e0fff);
+    background: linear-gradient(300deg, #3cffce, #9039f4, #FF1493, #00FFFF, #FFFF00 );
     background-size: 200% 200%;
     animation: animateGlow 10s ease infinite;
   }
@@ -72,27 +73,27 @@
     margin-bottom: var(--scroll-gap);
   }
   .child:nth-child(1) {
-    background-color: #d74247;
+    background-color: #ffff4f;
   }
-  .child:nth-child(1) h1 {
-    color: #ebfffa;
+  .child:nth-child(1) h5 {
+    color: #000000;
   }
   .child:nth-child(2) {
-    background-color: #9ed8db;
+    background-color: #53fcfc;
   }
-  .child:nth-child(2) h1 {
+  .child:nth-child(2) h5 {
     color: #0c0f0a;
   }
   .child:nth-child(3) {
-    background-color: #33648a;
+    background-color: #ee48a1;
   }
-  .child:nth-child(3) h1 {
-    color: #ebfffa;
+  .child:nth-child(3) h5 {
+    color: #ffffff;
   }
   .child:nth-child(4) {
-    background-color: #1d3354;
+    background-color: #9a42ff;
   }
-  .child:nth-child(4) h1 {
+  .child:nth-child(4) h5 {
     color: #ebfffa;
   }
 /* Карточки конец */
@@ -153,7 +154,7 @@ padding: 10px;
 
   @media screen and (max-width: 850px){
       p{
-        font-size: 18px;
+        font-size: 11px;
       }
   }
   
