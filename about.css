@@ -54,6 +54,9 @@
     padding: var(--scroll-gap);
     scroll-snap-type: y mandatory;
   }
+  .H{
+    font-size: 7%;
+  }
   .TEXT1{
   font-size: 24px;
   margin: 2px;
@@ -167,7 +170,7 @@ padding: 10px;
 
   @media screen and (max-width: 849px){
       p{
-        font-size: 10px;
+        font-size: 13px;
       }
       .TEXT1{
         font-size: 12px;
