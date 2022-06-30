@@ -194,7 +194,7 @@ padding: 10px;
         font-size: 18px;
       }
       .TEXT2{
-        font-size: 18px;
+        font-size: 17px;
       }
       .TEXT3{
         font-size: 18px;
@@ -203,9 +203,9 @@ padding: 10px;
         font-size: 20px;
       }
   }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 851px) {
     .child{
-      height: 40%;
+      height: 50%;
       width: 67%;
       margin-left: 16%;
     }
