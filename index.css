@@ -2,12 +2,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
     /* font-family: 'Macondo', cursive;   */
     /* font-family: 'Indie Flower', cursive;  */
-    /* font-family: 'Akshar', sans-serif; */
     /* font-family: 'Artemis Deco', arial; */
-    /* font-family: 'Akshar', sans-serif; */
-    /* font-family: 'Akshar', sans-serif;  */
     /* font-family: 'Zen Loop', cursive; */
     /* font-family: 'BIZ UDPGothic', sans-serif; */
+   
     margin: 0;
     padding: 0;
 }
@@ -225,9 +223,6 @@
     margin: 0px auto;
     font-size: 20px;
   }
-.logo-title{
-    font-family: 'Macondo', cursive;
-}
 /* END STYLE FOR HEADER */
 /* START STYLE FOR BANNER */
 .banner-section{

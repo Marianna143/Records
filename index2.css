@@ -73,7 +73,7 @@
     /* position: fixed; */
   }
   .t2{
-  margin-left: 37%;
+  margin-left: 39%;
   text-align: center;
   /* margin: 50px; */
   color: #BF6B30;
@@ -82,4 +82,12 @@
     background: url(./img/13.png);
     background-size: cover;
     padding: 100px 0;
+}
+
+
+@media screen and (max-width: 850px) {
+    .t2{
+        margin: 20px;
+        justify-content: center;
+    }
 }
