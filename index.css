@@ -5,7 +5,6 @@
     /* font-family: 'Artemis Deco', arial; */
     /* font-family: 'Zen Loop', cursive; */
     /* font-family: 'BIZ UDPGothic', sans-serif; */
-   
     margin: 0;
     padding: 0;
 }
@@ -14,9 +13,14 @@
 .page-wrapper {
   width: 130px;
   position: relative;
-  margin-left: 15%;
+  margin-left: 10%;
 }
-
+.d1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+}
+.t{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+}
 .disk-wrapper {
   overflow: hidden;
   position: relative;
