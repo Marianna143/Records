@@ -28,7 +28,7 @@
     text-transform: uppercase;
     font-weight: bold;
     bottom: 0;
-    font-family: 'Macondo', cursive;
+    /* font-family: 'Macondo', cursive; */
 }
 .menu-ink {
     /* reset */

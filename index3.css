@@ -2,7 +2,7 @@
     /* font-family: Verdana, Geneva, Tahoma, sans-serif, cursive; */
     /* font-family: 'Smooch', cursive; */
     
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 .d{
@@ -12,12 +12,13 @@
   height: 30px;
   margin-left: 40%;
   align-items: center;
-  font-family: 'Zen Loop', cursive;
+  font-family: 'Akshar', sans-serif;
 }
 .d1{
 left: 40%;
 align-items: center;
-font-family: 'Zen Loop', cursive;
+font-family: 'Akshar', sans-serif;
+margin: 6px;
 }
 .button {
   background: #FF6A00;
@@ -26,7 +27,7 @@ font-family: 'Zen Loop', cursive;
   width: 70px;
   height: 30px;
   /* left: 40%; */
-  font-family: 'Zen Loop', cursive;
+  font-family: 'Akshar', sans-serif;
   align-items: center;
   /* margin-right: 10px; */
   /* position: fixed; */
@@ -36,11 +37,12 @@ margin-left: 30%;
 text-align: center;
 /* margin: 50px; */
 color: #FF6A00;
-font-family: 'Zen Loop', cursive;
+font-family: 'Akshar', sans-serif;
 }
 
 @media screen and (max-width: 850px) {
     .d, .d1, .t{
         margin: 20px;
+        justify-content: center;
     }
 }
