@@ -21,6 +21,15 @@
 .t{
     font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
 } */
+.t2{
+    margin-left: 39%;
+    text-align: center;
+    /* margin: 50px; */
+    color: #FF6A00;
+}
+.button{
+    color: #000000;
+}
 .disk-wrapper {
   overflow: hidden;
   position: relative;

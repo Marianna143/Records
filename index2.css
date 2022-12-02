@@ -72,12 +72,15 @@
     /* margin-right: 10px; */
     /* position: fixed; */
   }
-  .t2{
+  .t3{
   margin-left: 39%;
   text-align: center;
   /* margin: 50px; */
   color: #BF6B30;
   }
+  .button2{
+    color: #000000;
+}
   .footer2{
     background: url(./img/13.png);
     background-size: cover;
